@@ -1,0 +1,53 @@
+DEBUG:root:Starting script...
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): faceattendancesystem-srk-default-rtdb.firebaseio.com:443
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "GET /Students/201098.json HTTP/1.1" 200 160
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://storage.googleapis.com:443 "GET /storage/v1/b/faceattendancesystem-srk.appspot.com/o/Images%2F201098.png?projection=noAcl&prettyPrint=false HTTP/1.1" 200 789
+DEBUG:urllib3.connectionpool:https://storage.googleapis.com:443 "GET /download/storage/v1/b/faceattendancesystem-srk.appspot.com/o/Images%2F201098.png?generation=1723229614540343&alt=media HTTP/1.1" 200 14125
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "PUT /Students/201098/total_attendance.json?print=silent HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "PUT /Students/201098/last_attendance_time.json?print=silent HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "GET /Students/201098.json HTTP/1.1" 200 160
+DEBUG:root:Starting script...
+DEBUG:urllib3.connectionpool:https://storage.googleapis.com:443 "GET /storage/v1/b/faceattendancesystem-srk.appspot.com/o/Images%2F201098.png?projection=noAcl&prettyPrint=false HTTP/1.1" 200 789
+DEBUG:urllib3.connectionpool:https://storage.googleapis.com:443 "GET /download/storage/v1/b/faceattendancesystem-srk.appspot.com/o/Images%2F201098.png?generation=1723229614540343&alt=media HTTP/1.1" 200 14125
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "PUT /Students/201098/total_attendance.json?print=silent HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "PUT /Students/201098/last_attendance_time.json?print=silent HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "GET /Students/201098.json HTTP/1.1" 200 160
+DEBUG:urllib3.connectionpool:https://storage.googleapis.com:443 "GET /storage/v1/b/faceattendancesystem-srk.appspot.com/o/Images%2F201098.png?projection=noAcl&prettyPrint=false HTTP/1.1" 200 789
+DEBUG:urllib3.connectionpool:https://storage.googleapis.com:443 "GET /download/storage/v1/b/faceattendancesystem-srk.appspot.com/o/Images%2F201098.png?generation=1723229614540343&alt=media HTTP/1.1" 200 14125
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "PUT /Students/201098/total_attendance.json?print=silent HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "PUT /Students/201098/last_attendance_time.json?print=silent HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "GET /Students/201098.json HTTP/1.1" 200 160
+DEBUG:urllib3.connectionpool:https://storage.googleapis.com:443 "GET /storage/v1/b/faceattendancesystem-srk.appspot.com/o/Images%2F201098.png?projection=noAcl&prettyPrint=false HTTP/1.1" 200 789
+DEBUG:urllib3.connectionpool:https://storage.googleapis.com:443 "GET /download/storage/v1/b/faceattendancesystem-srk.appspot.com/o/Images%2F201098.png?generation=1723229614540343&alt=media HTTP/1.1" 200 14125
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "PUT /Students/201098/total_attendance.json?print=silent HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "PUT /Students/201098/last_attendance_time.json?print=silent HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "GET /Students/201098.json HTTP/1.1" 200 160
+DEBUG:urllib3.connectionpool:https://storage.googleapis.com:443 "GET /storage/v1/b/faceattendancesystem-srk.appspot.com/o/Images%2F201098.png?projection=noAcl&prettyPrint=false HTTP/1.1" 200 789
+DEBUG:urllib3.connectionpool:https://storage.googleapis.com:443 "GET /download/storage/v1/b/faceattendancesystem-srk.appspot.com/o/Images%2F201098.png?generation=1723229614540343&alt=media HTTP/1.1" 200 14125
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "PUT /Students/201098/total_attendance.json?print=silent HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "PUT /Students/201098/last_attendance_time.json?print=silent HTTP/1.1" 204 0
+DEBUG:root:Starting script...
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:google.auth.transport.requests:Making request: POST https://oauth2.googleapis.com/token
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): oauth2.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): faceattendancesystem-srk-default-rtdb.firebaseio.com:443
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "GET /Students/201098.json HTTP/1.1" 200 160
+DEBUG:urllib3.util.retry:Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): storage.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://storage.googleapis.com:443 "GET /storage/v1/b/faceattendancesystem-srk.appspot.com/o/Images%2F201098.png?projection=noAcl&prettyPrint=false HTTP/1.1" 200 789
+DEBUG:urllib3.connectionpool:https://storage.googleapis.com:443 "GET /download/storage/v1/b/faceattendancesystem-srk.appspot.com/o/Images%2F201098.png?generation=1723229614540343&alt=media HTTP/1.1" 200 14125
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "PUT /Students/201098/total_attendance.json?print=silent HTTP/1.1" 204 0
+DEBUG:urllib3.connectionpool:https://faceattendancesystem-srk-default-rtdb.firebaseio.com:443 "PUT /Students/201098/last_attendance_time.json?print=silent HTTP/1.1" 204 0
+DEBUG:root:Starting script...
+DEBUG:root:Starting script...
+DEBUG:root:Starting script...
+DEBUG:root:Starting script...
+DEBUG:root:Starting script...
+DEBUG:root:Starting script...
