@@ -109,13 +109,6 @@ python run.py
 
 ---
 
-## 📸 Screenshots
-
-![Web Dashboard](https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1350&q=80)
-*Modern, responsive web interface for easy control.*
-
----
-
 ## 📝 Customization
 
 - **UI Images:**  
